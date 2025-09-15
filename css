@@ -1,0 +1,21 @@
+.heading{
+    position: absolute;
+    top: 300px;
+    left: 100px;
+    color: white;
+}
+nav{
+    
+}
+h1,ul,li{
+    display: inline;
+}
+ul{
+    padding-left:50%;
+     color:white;
+}
+li a{
+   text-decoration: none;
+   color:black;
+   
+}
