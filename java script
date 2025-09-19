@@ -1,0 +1,33 @@
+let slideIndex = 0;
+showSlide(slideIndex);
+
+function changeSlide(n) {
+  showSlide((slideIndex += n));
+}
+
+function showSlide(n) {
+  let slides = document.querySelectorAll(".slides img");
+  if (n >= slides.length) {
+    slideIndex = 0;
+  }
+  if (n < 0) {
+    slideIndex = slides.length - 1;
+  }
+
+  slides.forEach((slide) => slide.classList.remove("active"));
+  slides[slideIndex].classList.add("active");
+}
+function validate() {
+  let user = document.getElementById("username").value;
+  let pass = document.getElementById("password").value;
+  let msg = document.getElementById("message");
+
+  // Example: hardcoded login
+  if (user === "admin" && pass === "1234") {
+    msg.style.color = "green";
+    msg.innerHTML = "✅ Login successful!";
+  } else {
+    msg.style.color = "red";
+    msg.innerHTML = "❌ Invalid username or password.";
+  }
+}
