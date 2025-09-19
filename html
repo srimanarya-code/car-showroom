@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Vintage Car Showroom</title>
-    <link rel="stylesheet" href="project-2.css">
+    <link rel="stylesheet" href="./project-2.css" />
     <link
       rel="icon"
       type="Vintage Car Showroom Logo Design.png"
@@ -13,28 +13,267 @@
   </head>
   <body>
     <header>
-      
-      <div class="video">
-        <video src="WHTASAPP 2.mp4" autoplay muted loop>
-        </video>
-        <h2 class="heading">car</h2>
-        <DIV>
-        <nav>
-            <h1>Vintage Car Showroom</h1>
-        <ul>
-          <li><a href="Home.html">Home</a></li>
-          <li><a href="Models.html">Models</a></li>
-          <li><a href="Contact.html">Contact</a></li>
-          <li><a href="About Us.html">About Us</a></li>
-          <li><a href="Search.html">Search</a></li>
-        </ul>
-        
-      </nav>
-      </DIV>
+      <div class="video-container">
+        <video src="WHTASAPP 2.mp4" autoplay muted loop playsinline></video>
+
+        <nav class="navbar">
+          <h1>Vintage Car Showroom</h1>
+          <ul>
+            <a href="">Home</a>
+            <li></li>
+            <a href="model.html">model</a>
+            <li></li>
+            <a href="contact.html">Contact</a>
+            <li></li>
+            <a href="">About us</a>
+            <li></li>
+            <a href="">Gallery</a>
+            <li></li>
+          </ul>
+        </nav>
+
+        <div class="centered-text">
+          <h1>Welcome to Vintage Car Showroom</h1>
+          <h3>Where vintage meets velocity</h3>
+          <button>Order Now</button>
+        </div>
       </div>
     </header>
-    <div class="container">
-      <div class="box"></div>
+    <div class="car-info">
+      <h2>About Cars</h2>
+      <p>
+        Cars are more than just a mode of transport—they represent
+        <b>freedom, style, and innovation</b>. From the invention of the first
+        motor vehicle in the late 19th century to today's high-performance
+        machines, cars have continued to
+        <b>evolve with technology, speed, and design</b>.
+      </p>
+      <h3>Types of Cars</h3>
+      <ul>
+        <li>
+          <b>Vintage Cars</b> - Classic beauties from the past, prized by
+          collectors.
+        </li>
+        <li><b>Sports Cars</b> - Built for speed, style, and performance.</li>
+        <li>
+          <b>SUVs</b> - Spacious, powerful, and perfect for families or
+          adventures.
+        </li>
+        <li>
+          <b>Luxury Cars</b> - Premium comfort, cutting-edge features, and
+          elegance.
+        </li>
+        <li>
+          <b>Electric Cars (EVs)</b> - Eco-friendly vehicles powered by
+          electricity.
+        </li>
+      </ul>
+
+      <h3>Fun Car Facts</h3>
+      <ul>
+        <li>The <b>first car</b> was invented by <b>Karl Benz in 1886</b>.</li>
+        <li>
+          The <b>world's fastest car</b> (as of 2025) can reach speeds of over
+          <b>500 km/h</b>.
+        </li>
+        <li>
+          <b>Vintage Mustangs and Camaros</b> are among the most popular classic
+          muscle cars.
+        </li>
+        <li>
+          Modern cars come with <b>AI, autopilot, and electric drivetrains</b>.
+        </li>
+      </ul>
     </div>
+
+    <div class="slider">
+      <div class="slides">
+        <img
+          src="827403-nissan-350z-bodykit-modified-cars-coupe-748x388.jpg"
+          alt="Car 1"
+          class="active"
+        />
+        <img src="view-car-running-high-speed_23-2150635424.jpg" alt="Car 2" />
+        <img
+          src="nissan-gtr-modified-nissan-silver-cars-wallpaper-preview.jpg"
+          alt="Car 3"
+        />
+        <img src="screenshot-2024-11-19-08-13-28-1.avif" alt="Car 4" />
+      </div>
+
+      <a class="prev" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+    </div>
+    <div class="car-info">
+      <h2>Modified Cars</h2>
+      <p>
+        Modified cars are vehicles that have been customized to improve their
+        <span class="highlight">performance, style, or both</span>. Enthusiasts
+        upgrade engines, change body designs, install advanced exhaust systems,
+        or add unique paint jobs to create a car that reflects their
+        <b>individual personality and taste</b>.
+      </p>
+
+      <h3>Types of Car Modifications</h3>
+      <ul>
+        <li>
+          <b>Performance Mods</b> - Engine tuning, turbochargers, and exhaust
+          systems to increase speed and power.
+        </li>
+        <li>
+          <b>Visual Mods</b> - Custom paint, vinyl wraps, spoilers, body kits,
+          and rims for a unique look.
+        </li>
+        <li>
+          <b>Interior Mods</b> - Upgraded seats, steering wheels, audio systems,
+          and lighting.
+        </li>
+        <li>
+          <b>Suspension Mods</b> - Lowered suspension or hydraulic setups for
+          better handling or style.
+        </li>
+        <li>
+          <b>Technology Mods</b> - Adding advanced sound systems, digital
+          displays, or smart gadgets.
+        </li>
+      </ul>
+
+      <h3>Why People Modify Cars?</h3>
+      <p>
+        Car modification is not just about power—it's about
+        <span class="highlight">creativity and identity</span>. Many owners
+        modify cars to stand out, achieve better performance, or simply follow
+        their passion for automotive art. In car culture, modified cars are
+        often seen as <b>expressions of freedom</b>.
+      </p>
+
+      <h3>Popular Modified Car Trends</h3>
+      <ul>
+        <li>
+          <b>JDM (Japanese Domestic Market)</b> - Famous for cars like the
+          Nissan Skyline, Toyota Supra, and Honda Civic.
+        </li>
+        <li>
+          <b>Muscle Car Mods</b> - Classic Mustangs, Camaros, and Challengers
+          with massive engines and bold looks.
+        </li>
+        <li>
+          <b>Euro Mods</b> - German cars like BMW, Audi, and Volkswagen with
+          sleek tuning and premium finishes.
+        </li>
+        <li>
+          <b>Off-Road Mods</b> - Jeeps, Land Cruisers, and SUVs with big tires,
+          lift kits, and rugged gear.
+        </li>
+      </ul>
+
+      <h3>The Future of Modified Cars</h3>
+      <p>
+        With the rise of <span class="highlight">electric vehicles (EVs)</span>,
+        car modification is entering a new era. EV owners are now customizing
+        battery packs, digital dashboards, and futuristic body kits. The culture
+        of modified cars will continue to evolve, blending
+        <b>classic car passion with modern technology</b>.
+      </p>
+    </div>
+    <div class="pic"><img src="vectors.jpg" alt="vectors" width="1350" /></div>
+    <div class="img-container">
+      <div class="box">
+        <img
+          src="modified-car-wlnuslcl84po0w28.jpg"
+          alt=""
+          width="500px"
+          height="500px"
+        />
+      </div>
+      <div class="box">
+        <img
+          src="Beginner-s+Guide+to+Car+Modification-1920w.jpg"
+          alt=""
+          width="500px"
+          height="500px"
+        />
+      </div>
+      <div class="box">
+        <img
+          src="DC-Modified-Mahindra-Thar-Hammer.webp"
+          alt=""
+          width="500px"
+          height="500px"
+        />
+      </div>
+      <div class="box">
+        <img
+          src="modified-car-1024-x-532-wallpaper-g2o7srjh038rh3wb.jpg"
+          alt=""
+          width="500px"
+          height="500px"
+        />
+      </div>
+    </div>
+    <div class="name"><h1>Discover</h1></div>
+    <div class="home1">
+      <div class="home">
+        <img src="porsche.webp" alt="" width="400px" height="400px" />
+      </div>
+      <div class="home">
+        <img
+          src="modified-contessa-india-images-7-720x366.jpg"
+          alt=""
+          width="400px"
+          height="400px"
+        />
+      </div>
+      <div class="home">
+        <img src="gto-widebody.avif" alt="" width="400px" height="400px" />
+      </div>
+    </div>
+    <div class="About">
+      <div class="name">
+        <h1>About us</h1>
+        <p>
+          At Vintage Car Showroom, we believe a car is more than just a vehicle
+          — it's a lifestyle. Our showroom brings together a wide range of cars,
+          from vintage classics to modern modified models, tailored for true
+          automobile lovers. With a passion for design, performance, and
+          innovation, we offer: A curated collection of cars for every taste.
+          Expert advice to help you find your dream car. Reliable after-sales
+          support and servicing. Whether you're here to buy, explore, or simply
+          admire, our goal is to give you a premium car experience like no
+          other.
+        </p>
+      </div>
+      <div class="name">
+        <h2>Current Region / Language</h2>
+        <h3>International / English</h3>
+      </div>
+      <div class="name1">
+      <div class="location">
+        <h2>Locations & Contacts</h2>
+
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.0861061408!2d-122.41941548468114!3d37.774929779759066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808a0634a8db%3A0x3df2d1e96e8a6e37!2sCar%20Showroom!5e0!3m2!1sen!2sin!4v1694650000000!5m2!1sen!2sin"
+          width="600"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        >
+        </iframe>
+      </div>
+      <div class="you">
+        <h1>Our youtube channel</h1>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/O_5goaab_1Q?si=lV_M_UpWGkVAlBbL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <!-- <video src="./WhatsApp Video 2025-09-19 at 11.38.22_71c417b5.mp4" autoplay></video> -->
+      </div>
+      </div>
+      <div class="contact">
+        <h1>contact details</h1>
+        <h2>Phone No:9059553261</h2>
+        <h3>Email-id:s.srimanarya@gmail.com</h3>
+      </div>
+    </div>
+
+    <script src="./project-2.js/project-2.js"></script>
   </body>
 </html>
